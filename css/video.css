@@ -1,0 +1,273 @@
+.pattern {
+  background-color: #333 !important; }
+
+body {
+  background-color: #f1f5f6; }
+
+#myvideo {
+  width: 100%;
+  height: 6rem;
+  background-color: #000;
+  position: fixed;
+  z-index: 100; }
+  #myvideo #back {
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    background: #4f5563;
+    position: fixed;
+    left: 0.4rem;
+    top: 0.44rem; }
+    #myvideo #back img {
+      width: 0.9rem;
+      height: 0.9rem; }
+
+#choose {
+  margin-top: 6rem;
+  position: fixed;
+  width: 100%;
+  z-index: 100; }
+  #choose ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #ffffff; }
+    #choose ul li {
+      flex: 1;
+      text-align: center;
+      color: #4f5563;
+      font: 800 0.4rem/1.24rem "";
+      border-top: 0.1rem solid #ffffff; }
+    #choose ul .choose {
+      border-bottom: 0.1rem solid #fe2f4d;
+      color: #fe2f4d; }
+
+#box {
+  background-color: #ffffff;
+  padding-top: 7.64rem; }
+  #box .rongqi .baozhuang #project {
+    padding: 0.72rem;
+    margin-bottom: 1.43rem; }
+    #box .rongqi .baozhuang #project h2 {
+      font: 700 0.24rem/0.72rem "";
+      color: #000; }
+    #box .rongqi .baozhuang #project ul li {
+      padding-left: 0.5rem;
+      font: 700  0.32rem/0.72rem "";
+      margin-left: 0.5rem; }
+    #box .rongqi .baozhuang #project ul .title {
+      color: #000000;
+      background: url("../imgs/get_code_button_highlighted.9.png") no-repeat left;
+      background-size: 4% 50%; }
+    #box .rongqi .baozhuang #project ul .content {
+      color: #6b7074;
+      padding-right: 1.2rem;
+      margin-left: 1rem;
+      background: url("../imgs/tra.png") no-repeat left;
+      background-size: 4% 45%;
+      display: flex;
+      justify-content: space-between; }
+    #box .rongqi .baozhuang #project ul .content:hover {
+      color: #fe2f4d; }
+  #box .rongqi .baozhuang #xiangqing #introduce {
+    padding: 0.48rem 0.72rem;
+    border-bottom: 1px solid #cbcbcb; }
+    #box .rongqi .baozhuang #xiangqing #introduce span {
+      display: block;
+      height: 0.48rem;
+      width: 0.96rem;
+      background-color: #ff9f1c;
+      font: 700 0.24rem/0.48rem "";
+      color: #ffffff;
+      text-align: center;
+      border-radius: 12%; }
+    #box .rongqi .baozhuang #xiangqing #introduce p {
+      font: 700 0.34rem/0.5rem "";
+      color: #b6bcbc; }
+  #box .rongqi .baozhuang #xiangqing #notice {
+    padding: 0.72rem;
+    border-bottom: 1px solid #cbcbcb; }
+    #box .rongqi .baozhuang #xiangqing #notice ul li h3 {
+      font: 700 0.24rem/0.72rem "";
+      color: #000; }
+    #box .rongqi .baozhuang #xiangqing #notice ul li p {
+      padding-left: 0.72rem;
+      font: 700 0.34rem/0.68rem "";
+      color: #b6bcbc; }
+  #box .rongqi .baozhuang #xiangqing #teacher {
+    border-bottom: 1px solid #cbcbcb; }
+    #box .rongqi .baozhuang #xiangqing #teacher a {
+      display: block;
+      height: 1.2rem;
+      padding: 0.72rem;
+      background: url("../imgs/triangle.png") no-repeat 95% 50%;
+      background-size: 5% 25%; }
+      #box .rongqi .baozhuang #xiangqing #teacher a img {
+        width: 1.2rem;
+        height: 1.2rem;
+        float: left;
+        border-radius: 50%; }
+      #box .rongqi .baozhuang #xiangqing #teacher a .teach_r {
+        float: left;
+        font: 700 0.28rem/0.6rem "";
+        margin-left: 0.24rem; }
+        #box .rongqi .baozhuang #xiangqing #teacher a .teach_r h4 {
+          color: #000000; }
+        #box .rongqi .baozhuang #xiangqing #teacher a .teach_r span {
+          color: #6d747c; }
+  #box .rongqi .baozhuang #xiangqing #grade {
+    border-bottom: 1px solid #cbcbcb;
+    padding: 0.72rem; }
+    #box .rongqi .baozhuang #xiangqing #grade .grade_t span {
+      font: 0.32rem/0.42rem "";
+      color: #000;
+      margin-top: 0.1rem; }
+    #box .rongqi .baozhuang #xiangqing #grade .grade_t b {
+      font: 0.42rem/0.42rem "";
+      color: #000; }
+    #box .rongqi .baozhuang #xiangqing #grade .grade_t i {
+      margin-left: 4rem;
+      font: 0.3rem/0.42rem "";
+      margin-top: 0.12rem;
+      color: #0eb0f8; }
+    #box .rongqi .baozhuang #xiangqing #grade .grade_b {
+      margin-top: 0.54rem; }
+      #box .rongqi .baozhuang #xiangqing #grade .grade_b .cusimg {
+        height: 0.54rem;
+        width: 0.54rem;
+        float: left;
+        border-radius: 50%; }
+      #box .rongqi .baozhuang #xiangqing #grade .grade_b span {
+        margin: 0.14rem 0.3rem 0;
+        margin-top: 0.14rem;
+        float: left;
+        display: block;
+        font: 0.28rem/0.28rem ""; }
+      #box .rongqi .baozhuang #xiangqing #grade .grade_b ul {
+        float: left;
+        display: flex;
+        justify-content: flex-start; }
+        #box .rongqi .baozhuang #xiangqing #grade .grade_b ul li img {
+          height: 0.36rem;
+          width: 0.48rem; }
+  #box .rongqi .baozhuang #pinglun ul li {
+    height: 1.6rem;
+    padding: 0.4rem 0.7rem;
+    border-bottom: 1px solid #ededed; }
+    #box .rongqi .baozhuang #pinglun ul li img {
+      float: left;
+      height: 1.08rem;
+      width: 1.08rem;
+      border-radius: 50%;
+      display: block; }
+    #box .rongqi .baozhuang #pinglun ul li .mid {
+      display: block;
+      float: left;
+      margin-left: 0.5rem; }
+      #box .rongqi .baozhuang #pinglun ul li .mid b {
+        font: 800 0.34rem/0.5rem "";
+        color: #6a7378;
+        display: block; }
+      #box .rongqi .baozhuang #pinglun ul li .mid i {
+        font: 800 0.22rem/0.3rem "";
+        color: #71767a;
+        display: block;
+        margin: 0.3rem 0; }
+      #box .rongqi .baozhuang #pinglun ul li .mid span {
+        font: 800 0.3rem/0.5rem "";
+        color: #000;
+        display: block; }
+    #box .rongqi .baozhuang #pinglun ul li .zan {
+      display: block;
+      width: 1rem;
+      float: right;
+      background: url("../imgs/ic_no_praise.png") no-repeat 50% 60%;
+      background-size: 68% 200%; }
+      #box .rongqi .baozhuang #pinglun ul li .zan span {
+        font: 0.2rem/0.2rem "";
+        color: #cb3340; }
+  #box .rongqi .baozhuang #wenda ul {
+    padding: 0 0.6rem; }
+    #box .rongqi .baozhuang #wenda ul li a {
+      display: block;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #ededed; }
+      #box .rongqi .baozhuang #wenda ul li a .come {
+        font: 600  0.3rem/1rem "";
+        color: #b7bbbc; }
+      #box .rongqi .baozhuang #wenda ul li a h5 {
+        font: 600  0.44rem/0.5rem ""; }
+      #box .rongqi .baozhuang #wenda ul li a .answer {
+        margin-top: 0.25rem;
+        height: 0.7rem; }
+        #box .rongqi .baozhuang #wenda ul li a .answer b {
+          display: block;
+          height: 0.7rem;
+          width: 1.98rem;
+          border: 1px solid #cbcbcb;
+          background-color: #e9f6fe;
+          color: #10b5ff;
+          box-sizing: border-box;
+          padding-left: 0.35rem;
+          text-align: center;
+          float: left;
+          font: 700  0.24rem/0.7rem "";
+          background: url("../imgs/answer_edit_icon.png") no-repeat 3% 50%;
+          background-size: 20% 50%; }
+        #box .rongqi .baozhuang #wenda ul li a .answer span {
+          float: left;
+          display: block;
+          font: 700  0.32rem/0.7rem "";
+          color: #6d747a;
+          margin-left: 0.25rem; }
+          #box .rongqi .baozhuang #wenda ul li a .answer span i {
+            color: #ff9d21; }
+
+#add {
+  position: fixed;
+  right: 0.54rem;
+  bottom: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  z-index: 2; }
+  #add img {
+    width: 100%;
+    height: 100%; }
+
+#share {
+  display: none;
+  width: 100%;
+  position: fixed;
+  height: 13.1rem;
+  background: rgba(64, 70, 80, 0.9);
+  bottom: 0;
+  z-index: 101; }
+  #share .section_one {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 2.1rem; }
+    #share .section_one a {
+      display: block;
+      width: 33%;
+      text-align: center;
+      box-sizing: border-box; }
+      #share .section_one a img {
+        width: 1.92rem;
+        height: 1.92rem;
+        margin: 0 auto;
+        margin-bottom: 0.8rem;
+        display: block; }
+      #share .section_one a span {
+        color: #fff;
+        font: 0.45rem/0.45rem "";
+        display: inline-block;
+        margin-bottom: 1.16rem; }
+  #share #close {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1rem;
+    color: #fff;
+    font: 0.9rem/0.9rem ""; }
+
+/*# sourceMappingURL=video.css.map */

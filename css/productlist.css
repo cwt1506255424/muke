@@ -1,0 +1,105 @@
+#head {
+  color: #ffffff;
+  height: 1.68rem;
+  box-sizing: border-box;
+  padding: 0.6rem  0.4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  #head a {
+    display: block;
+    float: left; }
+    #head a img {
+      height: 0.48rem;
+      width: 0.48rem; }
+  #head span {
+    color: #ffffff;
+    float: left;
+    background: url("../imgs/jiaohu.png") no-repeat left;
+    background-size: 25% 100%;
+    font: 700 0.48rem/0.48rem "";
+    padding-left: 0.5rem; }
+  #head .news {
+    margin-left: 6.2rem; }
+  #head .hot {
+    margin-left: 0.3rem;
+    background: none; }
+
+#noname {
+  height: 3.74rem;
+  background-color: #79bef5;
+  color: #ffffff;
+  text-align: center;
+  z-index: 99; }
+  #noname .logo {
+    height: 0.9rem;
+    width: 1.3rem;
+    margin-top: 1rem; }
+  #noname .title {
+    position: absolute;
+    font: 600 0.36rem/0.36rem "";
+    left: 4.3rem;
+    top: 2.8rem; }
+
+.nonamete {
+  position: fixed;
+  width: 100%;
+  top: -2.06rem; }
+
+.choosete {
+  position: fixed;
+  z-index: 99;
+  top: 1.68rem; }
+
+#choose {
+  width: 100%;
+  height: 1.68rem;
+  background-color: #79bef5; }
+  #choose ul {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    #choose ul li {
+      flex: 1;
+      text-align: center;
+      color: #ffffff;
+      font: 700 0.4rem/1.6rem ""; }
+    #choose ul .bor {
+      border-bottom: 0.3rem solid #ffffff; }
+
+#box .rongqi .baozhuang .kuai ul li a {
+  display: block;
+  padding: 0.48rem;
+  height: 2.4rem;
+  border-bottom: 1px solid #dbdcde; }
+  #box .rongqi .baozhuang .kuai ul li a img {
+    float: left;
+    display: block;
+    height: 2.4rem;
+    width: 2.7rem; }
+  #box .rongqi .baozhuang .kuai ul li a .zhiyeright {
+    height: 2.4rem;
+    width: 6.76rem;
+    padding-right: 0.25rem;
+    float: right;
+    position: relative; }
+    #box .rongqi .baozhuang .kuai ul li a .zhiyeright h6 {
+      font: 600 0.34rem/0.34rem "";
+      margin-top: 0.23rem; }
+    #box .rongqi .baozhuang .kuai ul li a .zhiyeright p {
+      margin-top: 0.2rem;
+      font: 600 0.22rem/0.32rem "";
+      color: #b8bcbd; }
+    #box .rongqi .baozhuang .kuai ul li a .zhiyeright div {
+      font: 600 0.22rem/0.24rem "";
+      position: absolute;
+      bottom: 0.25rem; }
+      #box .rongqi .baozhuang .kuai ul li a .zhiyeright div span {
+        color: #74797c; }
+      #box .rongqi .baozhuang .kuai ul li a .zhiyeright div b {
+        color: #ff2b53;
+        font-weight: 800; }
+
+/*# sourceMappingURL=productlist.css.map */

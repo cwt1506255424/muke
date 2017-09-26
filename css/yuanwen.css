@@ -1,0 +1,99 @@
+.pattern {
+  background-color: #333 !important; }
+
+body {
+  background-color: #f1f5f6; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head a {
+    display: block;
+    margin-top: 0.16rem;
+    background: url("../imgs/image_selector_btn_back.png") no-repeat;
+    background-size: 85% 85%;
+    height: 0.54rem;
+    width: 0.54rem;
+    float: left; }
+  header #head span {
+    float: left;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .search {
+    float: right;
+    background: url("../imgs/searchresults48.png") no-repeat center bottom;
+    background-size: 85% 85%;
+    margin-left: 5.05rem; }
+
+#choose {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 1.65rem;
+  box-shadow: 0 0 0.3rem #a1a1a1; }
+  #choose ul {
+    display: flex;
+    justify-content: space-between; }
+    #choose ul li {
+      flex: 1;
+      text-align: center;
+      font: 700 0.32rem/1.44rem "";
+      color: #73787b; }
+    #choose ul .red {
+      color: #cb3340;
+      border-bottom: 0.03rem solid #cb3340; }
+
+#box {
+  margin-top: 3.09rem; }
+  #box .rongqi .baozhuang .kuai ul {
+    padding: 0 0.6rem;
+    background-color: #ffffff; }
+    #box .rongqi .baozhuang .kuai ul li a {
+      display: block;
+      padding: 0.6rem 0;
+      border-bottom: 1px solid #ededed; }
+      #box .rongqi .baozhuang .kuai ul li a .come {
+        font: 600  0.3rem/1rem "";
+        color: #b7bbbc; }
+      #box .rongqi .baozhuang .kuai ul li a h5 {
+        font: 600  0.44rem/0.5rem ""; }
+      #box .rongqi .baozhuang .kuai ul li a .answer {
+        margin-top: 0.25rem;
+        height: 0.7rem; }
+        #box .rongqi .baozhuang .kuai ul li a .answer b {
+          display: block;
+          height: 0.7rem;
+          width: 1.98rem;
+          border-radius: 8%;
+          color: #10b5ff;
+          box-sizing: border-box;
+          padding-left: 0.35rem;
+          text-align: center;
+          float: left;
+          font: 700  0.24rem/0.7rem "";
+          background: #e5f8ff url("../imgs/answer_edit_icon.png") no-repeat 3% 50%;
+          background-size: 20% 50%; }
+        #box .rongqi .baozhuang .kuai ul li a .answer span {
+          float: left;
+          display: block;
+          font: 700  0.32rem/0.7rem "";
+          color: #6d747a;
+          margin-left: 0.25rem; }
+          #box .rongqi .baozhuang .kuai ul li a .answer span i {
+            color: #ff9d21; }
+
+/*# sourceMappingURL=yuanwen.css.map */

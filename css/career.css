@@ -1,0 +1,71 @@
+header {
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head a {
+    float: left;
+    display: block;
+    height: 1.65rem;
+    width: 1.65rem;
+    background: url("../imgs/back.png") no-repeat center;
+    background-size: 50% 50%; }
+  header #head span {
+    margin-left: 0.3rem;
+    float: left;
+    font: 700 0.38rem/1.65rem "";
+    color: #ffffff;
+    display: block; }
+
+#bac {
+  height: 4.62rem; }
+  #bac img {
+    height: 4.62rem;
+    width: 100%; }
+
+.bac {
+  top: -2.97rem;
+  position: fixed;
+  z-index: 99; }
+
+#list {
+  position: absolute;
+  top: 2.9rem;
+  padding: 0 1.73rem; }
+  #list ul li {
+    margin-bottom: 0.35rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 0.03rem #a1a1a1; }
+    #list ul li a {
+      display: block; }
+      #list ul li a img {
+        height: 1.68rem;
+        width: 100%; }
+      #list ul li a .fourdown {
+        overflow: hidden;
+        position: relative;
+        padding: 0 0.32rem; }
+        #list ul li a .fourdown h5 {
+          box-sizing: border-box;
+          padding: 0.18rem 0.65rem 0.18rem 0;
+          font: 700 0.28rem/0.38rem "";
+          color: #000000; }
+        #list ul li a .fourdown span {
+          margin-top: 0.15rem;
+          display: block;
+          font: 700 0.24rem/0.36rem "";
+          color: #b4b9bc; }
+        #list ul li a .fourdown p {
+          margin-top: 0.15rem;
+          font: 0.24rem/0.36rem "";
+          color: #b4b9bc; }
+        #list ul li a .fourdown i {
+          margin: 0.3rem 0;
+          display: block;
+          font: 0.24rem/0.24rem "";
+          color: #cb3340; }
+
+/*# sourceMappingURL=career.css.map */

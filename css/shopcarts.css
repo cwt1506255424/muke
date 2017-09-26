@@ -1,0 +1,107 @@
+body {
+  background-color: #f1f5f6; }
+
+header {
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  background-color: #333949;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head a {
+    float: left;
+    display: block;
+    height: 1.65rem;
+    width: 1.65rem;
+    background: url("../imgs/back.png") no-repeat center;
+    background-size: 50% 50%; }
+  header #head span {
+    margin-left: 0.3rem;
+    float: left;
+    font: 700 0.38rem/1.65rem "";
+    color: #ffffff;
+    display: block; }
+
+#willbuy ul {
+  margin: 1.65rem 0 1.44rem 0; }
+  #willbuy ul li {
+    height: 3rem;
+    box-sizing: border-box;
+    padding: 0.48rem;
+    background-color: #ffffff;
+    display: flex; }
+    #willbuy ul li i {
+      display: block;
+      width: 0.6rem;
+      height: 100%;
+      background: url("../imgs/inputradio.gif") no-repeat 0% 50%;
+      background-size: 200% 20%; }
+    #willbuy ul li .nocheck {
+      background-position: 90% 50%; }
+    #willbuy ul li input {
+      display: none; }
+    #willbuy ul li img {
+      margin-left: 0.2rem;
+      height: 100%;
+      width: 3.6rem; }
+    #willbuy ul li .will_r {
+      padding: 0 0.45rem; }
+      #willbuy ul li .will_r p {
+        font: 700 0.3rem/0.6rem "";
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        margin-bottom: 1rem; }
+      #willbuy ul li .will_r b {
+        font: 700 0.3rem/0.6rem "";
+        color: #cb3340; }
+      #willbuy ul li .will_r span {
+        font: 700 0.3rem/0.6rem "";
+        color: #cb3340; }
+
+#foot {
+  height: 1.44rem;
+  border-top: 1px solid #cbcbcb;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  #foot .choooseall {
+    float: left;
+    color: #b5babd;
+    font: 800 0.34rem/1.44rem ""; }
+    #foot .choooseall i {
+      float: left;
+      margin: 0.46rem 0 0 0.46rem;
+      width: 0.5rem;
+      height: 0.5rem;
+      display: block;
+      background: url("../imgs/inputradio.gif") no-repeat 0% 50%;
+      background-size: 200% 75%; }
+    #foot .choooseall .nochecked {
+      background-position: 90% 50%; }
+    #foot .choooseall input {
+      float: left;
+      display: none; }
+    #foot .choooseall span {
+      float: left; }
+  #foot b {
+    float: left;
+    font: 800 0.48rem/1.44rem "";
+    display: block;
+    color: #000000; }
+  #foot .heji {
+    margin-left: 1.3rem; }
+  #foot a {
+    float: right;
+    background-color: #ff2d50;
+    display: block;
+    font: 800 0.48rem/1.44rem "";
+    width: 3.6rem;
+    color: #ffffff; }
+
+/*# sourceMappingURL=shopcarts.css.map */

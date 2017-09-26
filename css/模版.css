@@ -1,0 +1,57 @@
+body {
+  background-color: #f1f5f6; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head span {
+    float: left;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .search {
+    background: url("../imgs/searchresults48.png") no-repeat center bottom;
+    background-size: 85% 85%;
+    margin-left: 5.05rem; }
+  header #head .message {
+    background: url("../imgs/img_head_no_msg.png") no-repeat center bottom;
+    background-size: 75% 75%;
+    margin-left: 0.9rem; }
+  header #head .shopcart {
+    background: url("../imgs/regular_members_icon2.png") no-repeat center bottom;
+    background-size: 70% 70%;
+    margin-left: 0.9rem; }
+
+footer ul {
+  height: 1.5rem;
+  background-color: #ffffff;
+  padding: 0.2rem 1.02rem 0.15rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0px 5px #a1a1a1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 100; }
+  footer ul li a img {
+    height: 0.62rem;
+    width: 0.66rem; }
+  footer ul li a span {
+    display: block;
+    text-align: center;
+    font: 0.24rem/0.24rem "";
+    margin-top: 0.28rem; }
+
+/*# sourceMappingURL=%E6%A8%A1%E7%89%88.css.map */

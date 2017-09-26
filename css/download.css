@@ -1,0 +1,131 @@
+body {
+  background-color: #f1f5f6; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head span {
+    float: left;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .search {
+    background: url("../imgs/searchresults48.png") no-repeat center bottom;
+    background-size: 85% 85%;
+    margin-left: 5.05rem; }
+  header #head .message {
+    background: url("../imgs/img_head_no_msg.png") no-repeat center bottom;
+    background-size: 75% 75%;
+    margin-left: 0.9rem; }
+  header #head .shopcart {
+    background: url("../imgs/regular_members_icon2.png") no-repeat center bottom;
+    background-size: 70% 70%;
+    margin-left: 0.9rem; }
+
+#memory {
+  margin-top: 1.65rem;
+  height: 1.44rem;
+  background-color: #cb3340;
+  box-shadow: 0 0 0.05rem #000; }
+
+#nodownload {
+  height: 9.83rem;
+  width: 100%; }
+  #nodownload img {
+    margin-top: 2rem;
+    height: 4.86rem;
+    width: 4.86rem; }
+  #nodownload span {
+    margin-top: 1rem;
+    font: 0.34rem/0.34rem "";
+    display: block;
+    color: #6c7175; }
+
+#kechengtuijian {
+  margin-bottom: 1.5rem; }
+  #kechengtuijian .title {
+    margin-top: 0.48rem;
+    padding: 0.3rem  0.5rem 0 4.3rem;
+    height: 0.96rem; }
+    #kechengtuijian .title i {
+      float: left;
+      display: block;
+      height: 0.36rem;
+      width: 0.36rem;
+      background: url("../imgs/icon_recommend_course.png") no-repeat center;
+      background-size: 100%; }
+    #kechengtuijian .title span {
+      float: left;
+      margin-left: 0.24rem;
+      font: 700  0.36rem/0.36rem "";
+      color: #6c7175; }
+    #kechengtuijian .title b {
+      float: right;
+      font: 600  0.30rem/0.36rem "";
+      color: #b7bcbf; }
+  #kechengtuijian ul {
+    padding: 0.33rem 0.57rem 0;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap; }
+    #kechengtuijian ul li {
+      width: 4.62rem;
+      background-color: #ffffff;
+      margin-bottom: 0.33rem; }
+      #kechengtuijian ul li a .four img {
+        height: 1.68rem;
+        width: 4.62rem; }
+      #kechengtuijian ul li a .four .fourdown {
+        height: 1.7rem;
+        overflow: hidden;
+        position: relative; }
+        #kechengtuijian ul li a .four .fourdown h5 {
+          box-sizing: border-box;
+          padding: 0.18rem 0.65rem 0.18rem 0.32rem;
+          font: 700 0.28rem/0.38rem ""; }
+        #kechengtuijian ul li a .four .fourdown span {
+          display: block;
+          position: absolute;
+          bottom: 0.24rem;
+          left: 0.3rem;
+          font: 700 0.22rem/0.32rem "";
+          color: #707579; }
+  #kechengtuijian .moreclass {
+    display: block;
+    text-align: center;
+    font: 700 0.26rem/1.4rem "";
+    color: #b3b7ba; }
+
+footer ul {
+  height: 1.5rem;
+  background-color: #ffffff;
+  padding: 0.2rem 1.02rem 0.15rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0px 5px #a1a1a1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 100; }
+  footer ul li a img {
+    height: 0.62rem;
+    width: 0.66rem; }
+  footer ul li a span {
+    display: block;
+    text-align: center;
+    font: 0.24rem/0.24rem "";
+    margin-top: 0.28rem; }
+
+/*# sourceMappingURL=download.css.map */

@@ -1,0 +1,199 @@
+body {
+  background-color: #f1f5f6; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head span {
+    float: left;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .search {
+    background: url("../imgs/searchresults48.png") no-repeat center bottom;
+    background-size: 85% 85%;
+    margin-left: 5.05rem; }
+  header #head .message {
+    background: url("../imgs/img_head_no_msg.png") no-repeat center bottom;
+    background-size: 75% 75%;
+    margin-left: 0.9rem; }
+  header #head .shopcart {
+    background: url("../imgs/regular_members_icon2.png") no-repeat center bottom;
+    background-size: 70% 70%;
+    margin-left: 0.9rem; }
+
+#persinfo {
+  background-color: #ffffff;
+  padding: 0.5rem 0;
+  margin-top: 1.65rem; }
+  #persinfo .persinfo_t {
+    height: 2.6rem;
+    padding: 0 0.7rem;
+    box-sizing: border-box; }
+    #persinfo .persinfo_t img {
+      height: 2.6rem;
+      width: 2.6rem;
+      border-radius: 50%;
+      float: left; }
+    #persinfo .persinfo_t .perinfo_t_r {
+      float: left;
+      height: 2.6rem;
+      padding-left: 0.5rem; }
+      #persinfo .persinfo_t .perinfo_t_r h3 {
+        font: 900 0.4rem/0.4rem "";
+        color: #000;
+        margin: 0.75rem  0; }
+      #persinfo .persinfo_t .perinfo_t_r span {
+        font: 700 0.3rem/0.3rem "";
+        color: #6c757a;
+        margin-right: 0.4rem; }
+      #persinfo .persinfo_t .perinfo_t_r .jingyan {
+        border-left: 1px solid #6c757a;
+        padding-left: 0.4rem; }
+  #persinfo .persinfo_b {
+    margin-top: 1.05rem; }
+    #persinfo .persinfo_b ul {
+      display: flex;
+      justify-content: space-between; }
+      #persinfo .persinfo_b ul li {
+        border-right: 1px solid #6c757a;
+        text-align: center;
+        padding: 0 1rem;
+        box-sizing: border-box;
+        flex: 1; }
+        #persinfo .persinfo_b ul li span {
+          font: 900 0.4rem/0.4rem ""; }
+        #persinfo .persinfo_b ul li b {
+          font: 900 0.4rem/0.4rem ""; }
+      #persinfo .persinfo_b ul .te {
+        border: none; }
+
+#mine {
+  background-color: #ffffff;
+  margin-top: 0.25rem; }
+  #mine ul {
+    display: flex;
+    justify-content: space-between; }
+    #mine ul li {
+      flex: 25%; }
+      #mine ul li a {
+        display: block;
+        text-align: center;
+        padding: 0.7rem 0 0 0.3rem; }
+        #mine ul li a img {
+          width: 0.6rem;
+          height: 0.6rem; }
+        #mine ul li a span {
+          display: block;
+          font: 700 0.3rem/1.1rem ""; }
+
+#history_path_class {
+  background-color: #ffffff;
+  margin-top: 0.25rem; }
+  #history_path_class ul li a {
+    display: block;
+    height: 1.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem 0.66rem;
+    background: url("../imgs/triangle.png") no-repeat 95% 50%;
+    background-size: 5% 45%; }
+    #history_path_class ul li a img {
+      float: left;
+      height: 0.48rem;
+      width: 0.48rem; }
+    #history_path_class ul li a span {
+      margin-left: 0.7rem;
+      font: 700 0.34rem/0.48rem ""; }
+
+#order_shopcart_easybuy {
+  background-color: #ffffff;
+  margin-top: 0.25rem; }
+  #order_shopcart_easybuy ul li a {
+    display: block;
+    height: 1.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem 0.66rem;
+    background: url("../imgs/triangle.png") no-repeat 95% 50%;
+    background-size: 5% 45%; }
+    #order_shopcart_easybuy ul li a img {
+      float: left;
+      height: 0.48rem;
+      width: 0.48rem; }
+    #order_shopcart_easybuy ul li a span {
+      margin-left: 0.7rem;
+      font: 700 0.34rem/0.48rem ""; }
+
+#night_setting {
+  background-color: #ffffff;
+  margin-top: 0.25rem;
+  margin-bottom: 1.65rem; }
+  #night_setting ul li a {
+    display: block;
+    height: 1.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem 0.66rem;
+    background: url("../imgs/triangle.png") no-repeat 95% 50%;
+    background-size: 5% 45%; }
+    #night_setting ul li a img {
+      float: left;
+      height: 0.48rem;
+      width: 0.48rem; }
+    #night_setting ul li a span {
+      float: left;
+      display: inline-block;
+      margin-left: 0.7rem;
+      font: 700 0.34rem/0.48rem ""; }
+  #night_setting ul li .te {
+    background: none; }
+    #night_setting ul li .te .bac {
+      margin-left: 6rem;
+      display: inline-block;
+      border-radius: 0.2rem;
+      float: left;
+      height: 0.4rem;
+      width: 0.8rem;
+      background-color: #b2b2b2;
+      position: relative; }
+      #night_setting ul li .te .bac i {
+        background-color: #ececec;
+        display: block;
+        height: 0.6rem;
+        width: 0.6rem;
+        position: absolute;
+        border-radius: 50%;
+        left: -0.1rem;
+        top: -0.1rem; }
+
+footer ul {
+  height: 1.5rem;
+  background-color: #ffffff;
+  padding: 0.2rem 1.02rem 0.15rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0px 5px #a1a1a1;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 100; }
+  footer ul li a img {
+    height: 0.62rem;
+    width: 0.66rem; }
+  footer ul li a span {
+    display: block;
+    text-align: center;
+    font: 0.24rem/0.24rem "";
+    margin-top: 0.28rem; }
+
+/*# sourceMappingURL=mine.css.map */

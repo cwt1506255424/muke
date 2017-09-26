@@ -1,0 +1,225 @@
+#head {
+  color: #ffffff;
+  height: 1.68rem;
+  box-sizing: border-box;
+  padding: 0.6rem  0.4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  #head a {
+    display: block;
+    float: left; }
+    #head a img {
+      height: 0.48rem;
+      width: 0.48rem; }
+  #head span {
+    color: #ffffff;
+    float: left;
+    background: url("../imgs/jiaohu.png") no-repeat left;
+    background-size: 25% 100%;
+    font: 700 0.48rem/0.48rem "";
+    padding-left: 0.5rem; }
+  #head .news {
+    margin-left: 6.2rem; }
+  #head .hot {
+    margin-left: 0.3rem;
+    background: none; }
+
+.noname {
+  height: 3.84rem;
+  background-color: #ff2d50;
+  position: relative; }
+  .noname span {
+    font: 900 0.44rem/1.3rem "";
+    color: #ffffff;
+    display: block;
+    position: absolute;
+    bottom: 0rem;
+    left: 1.2rem; }
+  .noname i {
+    height: 1.44rem;
+    width: 1.44rem;
+    display: block;
+    position: absolute;
+    bottom: -0.7rem;
+    border-radius: 50%;
+    box-shadow: 0 0 3px #cbcbcb; }
+  .noname .collect {
+    background: url("../imgs/star_normal.png") no-repeat center;
+    background-color: #fff;
+    background-size: 100%;
+    right: 2.3rem; }
+  .noname .sharebtn {
+    background: url("../imgs/circle_share.png") no-repeat center;
+    background-color: #c0c0c0;
+    background-size: 100%;
+    right: 0.35rem; }
+
+.namameeee {
+  width: 100%;
+  position: fixed;
+  top: -2.16rem; }
+
+#share {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0rem;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 2; }
+  #share ul {
+    position: absolute;
+    bottom: 1.2rem;
+    height: 7.2rem;
+    background-color: #ffffff;
+    border-top: 0.01rem solid #3fc394; }
+    #share ul li {
+      float: left;
+      width: 25%;
+      height: 2.5rem;
+      margin: 0.6rem 0; }
+      #share ul li a {
+        display: block; }
+        #share ul li a img {
+          display: block;
+          height: 1.96rem;
+          width: 1.96rem;
+          margin-left: 0.4rem; }
+        #share ul li a span {
+          display: block;
+          text-align: center;
+          font: 0.32rem/0.6rem "";
+          color: #ababab; }
+  #share h6 {
+    font: 700 0.46rem/1.19rem "";
+    text-align: center;
+    width: 100%;
+    background: #ffffff;
+    height: 1.19rem;
+    border-top: 1px solid #a7a7a7;
+    position: absolute;
+    bottom: 0rem; }
+
+#introduce {
+  padding: 0.48rem 0.72rem;
+  border-bottom: 1px solid #cbcbcb; }
+  #introduce span {
+    display: block;
+    height: 0.48rem;
+    width: 0.96rem;
+    background-color: #ff9f1c;
+    font: 700 0.24rem/0.48rem "";
+    color: #ffffff;
+    text-align: center;
+    border-radius: 12%; }
+  #introduce p {
+    font: 700 0.34rem/0.5rem "";
+    color: #b6bcbc; }
+
+#teacher {
+  border-bottom: 1px solid #cbcbcb; }
+  #teacher a {
+    display: block;
+    height: 1.2rem;
+    padding: 0.72rem;
+    background: url("../imgs/triangle.png") no-repeat 95% 50%;
+    background-size: 5% 25%; }
+    #teacher a img {
+      width: 1.2rem;
+      height: 1.2rem;
+      float: left;
+      border-radius: 50%; }
+    #teacher a .teach_r {
+      float: left;
+      font: 700 0.28rem/0.6rem "";
+      margin-left: 0.24rem; }
+      #teacher a .teach_r h4 {
+        color: #000000; }
+      #teacher a .teach_r span {
+        color: #6d747c; }
+
+#grade {
+  border-bottom: 1px solid #cbcbcb;
+  padding: 0.72rem; }
+  #grade .grade_t span {
+    font: 0.32rem/0.42rem "";
+    color: #000;
+    margin-top: 0.1rem; }
+  #grade .grade_t b {
+    font: 0.42rem/0.42rem "";
+    color: #000; }
+  #grade .grade_t i {
+    margin-left: 4rem;
+    font: 0.3rem/0.42rem "";
+    margin-top: 0.12rem;
+    color: #0eb0f8; }
+  #grade .grade_b {
+    margin-top: 0.54rem; }
+    #grade .grade_b .cusimg {
+      height: 0.54rem;
+      width: 0.54rem;
+      float: left;
+      border-radius: 50%; }
+    #grade .grade_b span {
+      margin: 0.14rem 0.3rem 0;
+      margin-top: 0.14rem;
+      float: left;
+      display: block;
+      font: 0.28rem/0.28rem ""; }
+    #grade .grade_b ul {
+      float: left;
+      display: flex;
+      justify-content: flex-start; }
+      #grade .grade_b ul li img {
+        height: 0.36rem;
+        width: 0.48rem; }
+
+#notice {
+  padding: 0.72rem;
+  border-bottom: 1px solid #cbcbcb; }
+  #notice ul li h3 {
+    font: 700 0.24rem/0.72rem "";
+    color: #000; }
+  #notice ul li p {
+    padding-left: 0.72rem;
+    font: 700 0.34rem/0.68rem "";
+    color: #b6bcbc; }
+
+#project {
+  padding: 0.72rem;
+  margin-bottom: 1.43rem; }
+  #project h2 {
+    font: 700 0.24rem/0.72rem "";
+    color: #000; }
+  #project ul li {
+    padding-left: 0.5rem;
+    font: 700  0.32rem/0.72rem "";
+    margin-left: 0.5rem; }
+  #project ul .title {
+    color: #000000;
+    background: url("../imgs/get_code_button_highlighted.9.png") no-repeat left;
+    background-size: 4% 50%; }
+  #project ul .content {
+    color: #6b7074;
+    margin-left: 1rem;
+    background: url("../imgs/tra.png") no-repeat left;
+    background-size: 4% 45%; }
+
+#stratlearn {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  height: 1.43rem;
+  width: 100%;
+  font: 700 0.44rem/1.43rem "";
+  background-color: #ff2d50;
+  text-align: center;
+  border-top: 1px solid #b84d5f; }
+  #stratlearn a {
+    color: #ffffff;
+    width: 100%;
+    display: block; }
+
+/*# sourceMappingURL=courseoutline.css.map */

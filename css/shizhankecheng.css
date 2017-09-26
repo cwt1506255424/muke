@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff; }
+
+header {
+  background-color: #333949;
+  color: #ffffff;
+  height: 1.65rem;
+  box-sizing: border-box;
+  padding: 0.46rem 0.74rem 0.64rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100; }
+  header #head a {
+    float: left;
+    display: block;
+    margin-top: 0.14rem;
+    height: 0.54rem;
+    width: 0.54rem;
+    background: url("../imgs/image_selector_btn_back.png") no-repeat center;
+    background-size: 100% 100%; }
+  header #head span {
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    font: 0.38rem/0.38rem ''; }
+  header #head i {
+    float: left;
+    display: block;
+    height: 0.54rem;
+    width: 0.54rem; }
+  header #head .shopcart {
+    float: right;
+    background: url("../imgs/regular_members_icon2.png") no-repeat center bottom;
+    background-size: 70% 70%;
+    margin-left: 0.9rem; }
+
+#img img {
+  margin-top: 1.65rem;
+  height: 3.6rem;
+  width: 100%; }
+
+#choose ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.45rem; }
+  #choose ul li {
+    text-align: center;
+    color: #000;
+    flex: 0 0 28%;
+    box-sizing: border-box;
+    font: 700 0.32rem/0.9rem "";
+    height: 0.9rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 0.45rem;
+    margin: 0.1rem; }
+  #choose ul .nosame {
+    background-color: #cb3340;
+    color: #ffffff; }
+
+#box .sec {
+  background-color: #ffffff;
+  overflow: hidden; }
+  #box .sec ul li a {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 0.48rem;
+    height: 2.4rem;
+    margin-bottom: 0.5rem; }
+    #box .sec ul li a img {
+      float: left;
+      display: block;
+      height: 2.4rem;
+      width: 2.7rem; }
+    #box .sec ul li a .zhiyeright {
+      height: 2.4rem;
+      width: 6.76rem;
+      padding-right: 0.25rem;
+      float: right;
+      position: relative; }
+      #box .sec ul li a .zhiyeright h6 {
+        font: 600 0.34rem/0.34rem "";
+        margin-top: 0.23rem; }
+      #box .sec ul li a .zhiyeright p {
+        margin-top: 0.2rem;
+        font: 600 0.22rem/0.32rem "";
+        color: #b8bcbd; }
+      #box .sec ul li a .zhiyeright div {
+        font: 600 0.22rem/0.24rem "";
+        position: absolute;
+        bottom: 0.25rem; }
+        #box .sec ul li a .zhiyeright div span {
+          color: #74797c; }
+        #box .sec ul li a .zhiyeright div b {
+          color: #ff2b53;
+          font-weight: 800; }
+
+/*# sourceMappingURL=shizhankecheng.css.map */
