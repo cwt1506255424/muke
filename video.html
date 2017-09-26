@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>course</title>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.css"/>
+    <link rel="stylesheet" href="css/video.css"/>
+
+</head>
+<body id="video_page">
+
+
+<section id="myvideo"  class="pattern" >
+    <a id="back" onClick="javascript :history.back(-1);">
+        <img src="imgs/back.png"/>
+    </a>
+    <video id="video" style="width: 100%" src="video/happy.mp4" webkit-playsinline="true"
+           x-webkit-airplay="true"  type="video/mp4" preload="none" x5-video-player-type="h5"
+           x5-video-player-fullscreen="true" poster="imgs/video.png" controls="controls" ></video>
+</section>
+
+<section id="choose">
+    <ul class="pattern">
+        <li class="choose">章节</li>
+        <li>详情</li>
+        <li>评论</li>
+        <li>问答</li>
+    </ul>
+</section>
+
+<section id="box" class="pattern">
+    <div class="swiper-container rongqi">
+        <div class="swiper-wrapper baozhuang">
+            <div id="project" class="swiper-slide kuai">
+                <h2>课程大纲</h2>
+                <ul class="">
+                    <a href="#"><li class="title">课程介绍</li></a>
+                    <a href="#"><li class="content"><b>1-1课程介绍</b><b>01：37</b></li></a>
+                    <a href="#"><li class="content"><b>1-2案例展示</b><b>12：03</b></li></a>
+                </ul>
+                <ul class="">
+                    <a href="#"><li class="title">Handlebars使用展示（一）</li></a>
+                    <a href="#"><li class="content"><b>2-1Handlebars使用展示（一）</b><b>36：07</b></li></a>
+                    <a href="#"><li class="content"><b>2-3Handlebars使用展示（一）</b><b>05：57</b></li></a>
+                    <a href="#"><li class="content"><b>2-4Handlebars使用展示（一）</b><b>11：50</b></li></a>
+                    <a href="#"><li class="content"><b>2-4Handlebars基础小结</b><b>01：37</b></li></a>
+                </ul>
+                <ul class="">
+                    <a href="#"><li class="title">使用Handlebars实现简单的网页案例</li></a>
+                    <a href="#"><li class="content"><b>3-1后台借口介绍</b><b>14：05</b></li></a>
+                    <a href="#"><li class="content"><b>3-2课程列表的实现</b><b>10：50</b></li></a>
+                    <a href="#"><li class="content"><b>3-3分页组件的实现（1）</b><b>13：25</b></li></a>
+                    <a href="#"><li class="content"><b>3-4分页组件的交互（1）</b><b>11：50</b></li></a>
+                    <a href="#"><li class="content"><b>3-5笔记本的显示隐藏逻辑实现（1）</b><b>09：19</b></li></a>
+                    <a href="#"><li class="content"><b>3-5课程大纲的实现（1）</b><b>14：05</b></li></a>
+                    <a href="#"><li class="content"><b>3-5笔记的渲染（1）</b><b>09：19</b></li></a>
+                    <a href="#"><li class="content"><b>3-8案例的补充说明</b><b>02：10</b></li></a>
+                </ul>
+                <ul class="">
+                    <a href="#"><li class="title">课程总结</li></a>
+                    <a href="#"><li class="content"><b>4-1课程总结</b><b>11：50</b></li></a>
+                </ul>
+            </div>
+            <div id="xiangqing" class="swiper-slide kuai">
+                <div id="introduce">
+                    <span>中级</span>
+                    <p>微信、QQ、陌陌…这些在你生活中不可缺的聊天APP原理是什么？如何实现消息送达、显示消息、进而聊天发表情图片的？又是如何实现群聊天？在本课程中将带领你全面了解IM技术，了解如何搭建IM服务器实现一个简单的聊天APP；让IM技术不再神秘</p>
+                </div>
+                <div id="notice">
+                    <ul>
+                        <li>
+                            <h3>课程须知</h3>
+                            <p>通过学习Android Multidex的基本原理，并使用两种方案实现Multidex分包</p>
+                        </li>
+                        <li>
+                            <h3>老师告诉你能学到什么？</h3>
+                            <p>随着项目功能迭代，apk中方法数越来越多，当方法数超过65535个之后，项目无法编译，此时需要借助分包技术，将一个apk中的dex分成多个dex,然后动态加载。</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="teacher">
+                    <a href="#">
+                        <img src="imgs/messi.png" alt="">
+                        <div class="teach_r">
+                            <h4>长安工程师</h4>
+                            <span>web前端工程师</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="grade">
+                    <a href="#">
+                        <div class="grade_t">
+                            <span>综合评分</span>
+                            <b>10.0</b>
+                            <i>查看全部3人评价</i>
+                        </div>
+                        <div class="grade_b">
+                            <img class="cusimg" src="imgs/woailuo.png" alt="">
+                            <span>行道树</span>
+                            <ul>
+                                <li><img src="imgs/star_selected.png" alt=""></li>
+                                <li><img src="imgs/star_selected.png" alt=""></li>
+                                <li><img src="imgs/star_selected.png" alt=""></li>
+                                <li><img src="imgs/star_selected.png" alt=""></li>
+                                <li><img src="imgs/star_selected.png" alt=""></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="pinglun" class="swiper-slide kuai">
+                <ul>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="imgs/messi.png" alt="">
+                        <div class="mid">
+                            <b>ddddsfdadfa</b>
+                            <i>10分钟前</i>
+                            <span>巴巴爸爸大大的</span>
+                        </div>
+                        <div class="zan">
+                            <span>1</span>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div id="wenda" class="swiper-slide kuai">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="come">来自</span>
+                            <span class="come from">Mysql SQL Sever</span>
+                            <h5>子类和父类，类和对象的关系，具体什么情况下用？需要考虑什么？</h5>
+                            <div class="answer">
+                                <b>撰写答案</b>
+                                <span>回答问题最高可获得<i>3积分</i>哦!</span>
+                            </div>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="add">
+    <img src="imgs/share.png"/>
+</section>
+<section id="share">
+    <section class="section_one">
+        <a href="#"><img src="imgs/share1.png"/><span>记笔记</span></a>
+        <a href="#"><img src="imgs/share2.png"/><span>提问</span></a>
+        <a href="#"><img src="imgs/share3.png"/><span>评论</span></a>
+        <a href="#"><img src="imgs/share4.png"/><span>下载</span></a>
+        <a href="#"><img src="imgs/share5.png"/><span>分享</span></a>
+        <a href="#"><img src="imgs/share6.png"/><span>定制课表</span></a>
+    </section>
+    <div id="close">×</div>
+</section>
+
+
+</body>
+<script type="text/javascript" src="node_modules/swiper/dist/js/swiper.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
+<script type="text/javascript">
+   //视频双击暂停播放
+    (function(){
+        var i = 0;
+        var vdplay = document.querySelector("#video");
+        vdplay.addEventListener("touchstart",function(){
+            i++;
+            setTimeout(function () {
+                i = 0;
+            }, 500);
+            if (i > 1) {
+                if(video.paused){
+                    video.play();
+                }else{
+                    video.pause();
+                }
+                i = 0;
+            }
+        })
+    })()
+   //点击加好显示分享
+   $("#add").on("touchstart", function(e) {
+       $(this).css("display","none");
+       $(this).siblings("#share").css("display","block");
+   });
+   //点击×关闭
+   $("#close").on("touchstart", function(e) {
+       $(this).parent().css("display","none");
+       $(this).parent().siblings("#add").css("display","block");
+   });
+</script>
+</html>

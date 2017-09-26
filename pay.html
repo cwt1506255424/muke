@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>pay</title>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="node_modules/swiper/dist/css/swiper.css"/>
+    <link rel="stylesheet" href="css/pay.css"/>
+
+</head>
+<body>
+<header>
+    <div id="head">
+        <a href="index.html"></a>
+        <span>购买课程</span>
+    </div>
+</header>
+<section id="willbuy">
+    <h3>商品信息</h3>
+    <ul>
+        <li>
+            <img src="imgs/water.png" alt="">
+            <div class="will_r">
+                <p>VUE+Node+MongoDB高等教育出版社</p>
+                <b>￥</b><span>448.00</span>
+            </div>
+        </li>
+    </ul>
+</section>
+<section id="payway">
+    <h3>支付方式</h3>
+    <ul>
+        <li class="payways">
+            <img src="imgs/pay_wxpay.png" alt="">
+            <input type="radio" name="pay" checked="checked"/>
+            <i></i>
+        </li>
+        <li class="payways">
+            <img src="imgs/pay_alipay.png" alt="">
+            <input type="radio" name="pay"/>
+            <i class="nocheck"></i>
+        </li>
+    </ul>
+</section>
+
+<section id="sale">
+    <a href="#">优惠券</a>
+    <div>
+        <span>0</span>
+        <span>张可用</span>
+    </div>
+</section>
+
+<section id="calculate">
+    <ul>
+        <li>
+            <b>商品金额</b>
+            <span>448.00</span>
+            <span>￥</span>
+
+        </li>
+        <li>
+            <b>优惠券抵扣</b>
+            <span>0.00</span>
+            <span>-￥</span>
+        </li>
+    </ul>
+</section>
+
+<section id="rules">
+    <i class="nocheck"></i>
+    <input type="radio">
+    <span>我已阅读并同意</span>
+    <a href="#">《用户付费协议》</a>
+</section>
+
+<section id="foot">
+    <b class="heji">实付</b>
+    <b class="num">￥0.00</b>
+    <a href="">提交订单</a>
+</section>
+
+
+</body>
+<script type="text/javascript" src="node_modules/swiper/dist/js/swiper.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/pay.js"></script>
+</html>
